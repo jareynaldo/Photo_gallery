@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css" integrity="sha512-NVt7pmp5f+3eWRPO1h4A1gCf4opn4r5z2wS1mi7AaVcTzE9wDJ6RzMqSygjDzYHLp+mAJ2/qzXXDHar6IQwddQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/baguetteBox.min.css">
     <title>word</title>
 </head>
 <body>
@@ -13,83 +13,87 @@
     <input type="search" name="search" id="search" placeholder="Search">
 </header>
     <div class="gallery">
-             <div>
+             <!-- <div> -->
                 <a href="photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the 
                 countryside past some straw fields">
                     <img src="photos/thumbnails/01.jpg" alt="Hay Bales">
                 </a>
-            </div>
-            <div>  
+            <!-- </div>
+            <div>   -->
                 <a href="photos/02.jpg" data-caption="The lake was so calm today. We had a great view of the 
                 snow on the mountains from here.">
                     <img src="photos/thumbnails/02.jpg" alt="Lake">
                 </a>
-            </div> 
-           <div> 
+            <!-- </div> 
+           <div>  -->
                 <a href="photos/03.jpg" data-caption="I hiked to the top of the mountain and got this picture 
                 of the canyon and trees below.">
                     <img src="photos/thumbnails/03.jpg" alt="Canyon">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so 
                 cold but didn’t snow today.">
                     <img src="photos/thumbnails/04.jpg" alt="Iceberg">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in 
                 the desert but we did a lot of walking through the canyons.">
                     <img src="photos/thumbnails/05.jpg" alt="Desert">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees
                  start to change color.">
                     <img src="photos/thumbnails/06.jpg" alt="Fall">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/07.jpg" data-caption="I drove past this plantation yesterday, everything 
                 is so green!">
                     <img src="photos/thumbnails/07.jpg" alt="Plantation">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the 
                 sandy dunes!">
                     <img src="photos/thumbnails/08.jpg" alt="Dunes">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane. ">
                     <img src="photos/thumbnails/09.jpg" alt="Countryside Lane">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
                     <img src="photos/thumbnails/10.jpg" alt="Sunset">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/11.jpg" data-caption="I did a tour of a cave today and the view of the 
                 landscape below was breathtaking.
                 ">
                     <img src="photos/thumbnails/11.jpg" alt="Cave">
                 </a>
-            </div>
-            <div> 
+            <!-- </div>
+            <div>  -->
                 <a href="photos/12.jpg" data-caption="I walked through this meadow of bluebells and got a good
                  view of the snow on the mountain before the fog came in.">
                     <img src="photos/thumbnails/12.jpg" alt="Bluebells">
                 </a>
-            </div>
+            <!-- </div> -->
 
     </div>
 
 </body>
 <script src="js/js.js" async></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js" integrity="sha512-7KzSt4AJ9bLchXCRllnyYUDjfhO2IFEWSa+a5/3kPGQbr+swRTorHQfyADAhSlVHCs1bpFdB1447ZRzFyiiXsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>baguetteBox.run('.gallery')</script>
+<script src="js/baguetteBox.min.js" async> </script>
+<script>
+    window.addEventListener('load', function() {
+      baguetteBox.run('.gallery');
+    });
+    </script>
 </html>
 
