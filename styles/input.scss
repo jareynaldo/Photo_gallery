@@ -1,0 +1,12 @@
+    // Utilities  msut come first
+    @import  'utilities/mixins',
+    'utilities/variables';
+
+// Base Styles     
+@import  'base/base',
+    'base/normalize';
+
+// Component Styles
+@import 'components/grid',
+   'components/images',
+   'components/searchBar';
