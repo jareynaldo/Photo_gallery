@@ -2,14 +2,14 @@
 //  grid Styles
 // ======================================
 
- .container {
+ .gallery{
     text-align: center;
     width: 95%;
    display: grid;
-   grid-template-columns: repeat(auto-fill, 275px);  ;
-   grid-template-rows: repeat(4, 1fr) ;
-   grid-gap: 2rem 2rem;
-   margin-right: 2.5%;
+   grid-template-columns: repeat(auto-fill, 225px);  ;
+   grid-template-rows: repeat(auto-fill, 1fr) ;
+   grid-gap: 1.5rem 1.5rem;
+   margin-right: auto;
    margin-left: 2.5%;
   }
 a { 
