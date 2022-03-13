@@ -3,4 +3,4 @@ const _0x5837=['none','data-caption','toLowerCase','keyup','keyEvent','getAttrib
 
  const search = new Filter('search', 'data-caption');
 
-baguetteBox.run('.gallery');
+ const baguetteBox = require('baguettebox.js');
